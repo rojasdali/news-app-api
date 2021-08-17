@@ -16,6 +16,12 @@ this will download all the dependencies needed to run the app
 
 this will start the api on localhost:3000
 
+### `endpoints`
+
+- /articles
+- /countries
+- /categories
+
 ### `wishlist`
 
 - tests
