@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### `ruby version`
 
-Things you may want to cover:
+2.6.3
 
-* Ruby version
+### `master.key`
 
-* System dependencies
+must create a master.key file in /config. The key will be provided separately
 
-* Configuration
+### `bundle install`
 
-* Database creation
+this will download all the dependencies needed to run the app
 
-* Database initialization
+### `rails s`
 
-* How to run the test suite
+this will start the api on localhost:3000
 
-* Services (job queues, cache servers, search engines, etc.)
+### `wishlist`
 
-* Deployment instructions
-
-* ...
+- tests
+- auth requests from front-end with a key
+- allow fuzziness of searches
+- use everything api (I used top-headlines)
