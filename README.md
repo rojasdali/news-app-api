@@ -22,3 +22,4 @@ this will start the api on localhost:3000
 - auth requests from front-end with a key
 - allow fuzziness of searches
 - use everything api (I used top-headlines)
+- better error handling / more descriptive
