@@ -1,0 +1,66 @@
+class Country
+  include ActiveModel::Model
+
+  attr_accessor :codes
+
+  def self.codes
+    {
+      "Argentina":	"AR",
+      "Australia":	"AU",
+      "Austria":	"AT",
+      "Belgium": "BE",
+      "Brazil": "BR",
+      "Bulgaria": "BG",
+      "Canada":	"CA",
+      "China": "CN",
+      "Colombia":	"CO",
+      "Cuba":	"CU",
+      "Czech Republic":	"CZ",
+      "Egypt":	"EG",
+      "France":	"FR",
+      "Germany": "DE",
+      "Greece":	"GR",
+      "Hong Kong":	"HK",
+      "Hungary":	"HU",
+      "India": "IN",
+      "Indonesia":	"ID",
+      "Ireland": "IE",
+      "Israel":	"IL",
+      "Italy":	"IT",
+      "Japan": "JP",
+      "Korea":	"KR",
+      "Latvia": "LV",
+      "Lithuania": "LT",
+      "Malaysia":	"MY",
+      "Mexico":	"MX",
+      "Morocco":	"MA",
+      "Netherlands":	"NL",
+      "Nigeria":	"NG",
+      "Norway":	"NO",
+      "New Zealand": "NZ",
+      "Philippines":	"PH",
+      "Poland":	"PL",
+      "Portugal":	"PT",
+      "Qatar":	"QA",
+      "Romania":	"RO",
+      "Russian Federation":	"RU",
+      "Saudia Arabia":	"SA",
+      "Serbia":	"RS",
+      "Singapore":	"SG",
+      "Slovakia":	"SK",
+      "Slovenia":	"SI",
+      "South Africa": "ZA",
+      "Sweden":	"SE",
+      "Switzerland":	"CH",
+      "Taiwan":	"TW",
+      "Thailand":	"TH",
+      "Turkey":	"TR",
+      "Ukraine":	"UA",
+      "United Arab Emirates":	"AE",
+      "United Kingdom":	"GB",
+      "United States":	"US",
+      "Venezuela":	"VE"
+      }
+  end
+
+end
